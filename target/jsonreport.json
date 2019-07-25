@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-25T08:32:12.621Z",
+        "line": 2,
+        "name": "validating the product search",
+        "description": "",
+        "id": "searching-thr-product;validating-the-product-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80503928100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Search product",
+            "match": {
+              "location": "finals.search_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45117432300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Add to cart",
+            "match": {
+              "location": "finals.add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching thr product",
+    "description": "",
+    "id": "searching-thr-product",
+    "keyword": "Feature",
+    "uri": "file:final/final.feature",
+    "tags": []
+  }
+]
